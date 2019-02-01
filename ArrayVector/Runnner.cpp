@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  Runnner.cpp
 //  Array&Vector
 //
 //  Created by Denna, Zachary on 1/28/19.
@@ -7,9 +7,8 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#include "Controller.hpp"
+int main()
+{    Controller app;
+    app.start();
 }
